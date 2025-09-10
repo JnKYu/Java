@@ -60,8 +60,14 @@
 ### 4. 第一个 Java 程序：Hello World
 
 ```java
-public class Welcome1 {
-    public static void main(String[] args) {
-        System.out.println("Welcome to Java Programming!");
-    }
+ public class Welcome1 {
+   public static void main(String[] args) {
+       System.out.println("Welcome to Java Programming!");
+   }
 }
+```
+要点：
+- **class**：每个Java程序至少有一个类
+- **main方法**：程序入口
+- **System.out.println**：输出语句（带换行）
+- **标识符命名规则**：区分大小写，不能用数字开头，不能用关键字
